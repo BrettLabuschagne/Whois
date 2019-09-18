@@ -6,7 +6,7 @@ $_POST = json_decode(file_get_contents('php://input'), true);
 // $domain = $_POST['domain'];
 // $tld = $_POST['tld'];
 
-$domain = 'noldor222';
+$domain = 'test';
 $tld = 'co.za';
 
 $my_whois = new Whois_domain;
